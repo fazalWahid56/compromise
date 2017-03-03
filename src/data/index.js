@@ -36,4 +36,8 @@ module.exports = {
   'verbs': require('./verbs/verbs'),
 
   'misc': require('./misc/misc'),
+
+  'actions': require('./actions/actions'),
+  
+  'medications':require('./medications/medications'),
 };

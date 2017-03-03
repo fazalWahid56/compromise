@@ -99,6 +99,7 @@ let arr = [
   'aid',
   'appeal',
   'applaud',
+  'appoint',
   'archive',
   'ask',
   'assign',

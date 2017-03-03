@@ -5051,7 +5051,7 @@ var Medications = function (_Text) {
   }], [{
     key: 'find',
     value: function find(r, n) {
-      // r = r.splitAfter('#Comma');
+      r = r.splitAfter('#Comma');
       r = r.match('#Medications+');
       if (typeof n === 'number') {
         r = r.get(n);

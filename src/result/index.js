@@ -95,6 +95,8 @@ const subset = {
   ngrams: require('./subset/ngrams'),
   startGrams: require('./subset/ngrams/startGrams'),
   endGrams: require('./subset/ngrams/endGrams'),
+  actions: require('./subset/actions'),
+  medications: require('./subset/medications'),
 };
 //term subsets
 Object.keys(subset).forEach((k) => {
