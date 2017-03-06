@@ -54,8 +54,8 @@ addArr(data.demonyms, 'Demonym');
 addArr(data.sportsTeams, 'SportsTeam');
 addArr(data.bands, 'Organization');
 addArr(data.orgWords, 'Noun');
-addArr(data.actions,"Actions");
-addArr(data.medications,"Medications");
+// addArr(data.actions,"Actions");
+// addArr(data.medications,"Medications");
 
 //irregular verbs
 Object.keys(data.irregular_verbs).forEach((inf) => {
@@ -132,8 +132,15 @@ addArr(data.adjectives, 'Adjective');
 addArr(data.verbConverts, 'Adjective');
 addArr(data.superlatives, 'Adjective');
 addArr(data.currencies, 'Currency');
+
 addArr(data.actions, 'Actions');
 addArr(data.medications, 'Medications');
+addArr(data.allergies, 'Allergies');
+addArr(data.races, 'Races');
+addArr(data.ethnicities, 'Ethnicities');
+// addArr(data.vital_signs, 'Vital_signs');
+addArr(data.social_histories, 'Social_histories');
+
 //these ad-hoc manual ones have priority
 addObj(data.misc);
 

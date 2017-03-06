@@ -1,0 +1,4 @@
+allergies()
+races()
+enthnicities()
+vital_signs()

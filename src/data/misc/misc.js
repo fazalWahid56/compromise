@@ -18,7 +18,7 @@ const misc = {
   'not': 'Negative',
   'non': 'Negative',
   'never': 'Negative',
-  'no': 'Negative',
+  // 'no': 'Negative',
   'no doubt': 'Noun',
   'not only': 'Adverb',
   'how\'s': 'QuestionWord' //not conjunction
@@ -203,7 +203,7 @@ const compact = {
   'Possessive': [
     'mine',
     'something',
-    'none',
+    // 'none',
     'anything',
     'anyone',
     'theirs',

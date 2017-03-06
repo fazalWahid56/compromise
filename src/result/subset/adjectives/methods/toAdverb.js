@@ -31,7 +31,7 @@ const adj_to_adv = function(str) {
 
   const dont = {
     'foreign': 1,
-    'black': 1,
+    // 'black': 1,
     'modern': 1,
     'next': 1,
     'difficult': 1,
@@ -62,7 +62,7 @@ const adj_to_adv = function(str) {
     'used': 1,
     'welcome': 1,
     'yellow': 1,
-    'white': 1,
+    // 'white': 1,
     'fixed': 1,
     'mixed': 1,
     'super': 1,

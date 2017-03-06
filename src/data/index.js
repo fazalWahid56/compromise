@@ -38,6 +38,11 @@ module.exports = {
   'misc': require('./misc/misc'),
 
   'actions': require('./actions/actions'),
-  
   'medications':require('./medications/medications'),
+
+  'allergies':require('./allergies/allergies'),
+  'races':require('./races/races'),
+  'ethnicities':require('./ethnicities/ethnicities'),
+  'social_histories':require('./social_histories/social_histories'),
+  // 'vital_signs':require('./vital_signs/vital_signs'),
 };

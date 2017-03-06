@@ -188,13 +188,13 @@ module.exports=[
     "past": "befouled",
     "past participle": "befouled"
   },
-  {
-    "infinitive": "yellow",
-    "3rd singular present": "yellows",
-    "present participle": "yellowing",
-    "past": "yellowed",
-    "past participle": "yellowed"
-  },
+  // {
+  //   "infinitive": "yellow",
+  //   "3rd singular present": "yellows",
+  //   "present participle": "yellowing",
+  //   "past": "yellowed",
+  //   "past participle": "yellowed"
+  // },
   {
     "infinitive": "detrude",
     "3rd singular present": "detrudes",
@@ -1692,13 +1692,13 @@ module.exports=[
     "past": "crawled",
     "past participle": "crawled"
   },
-  {
-    "infinitive": "white",
-    "3rd singular present": "whites",
-    "present participle": "whiting",
-    "past": "whited",
-    "past participle": "whited"
-  },
+  // {
+  //   "infinitive": "white",
+  //   "3rd singular present": "whites",
+  //   "present participle": "whiting",
+  //   "past": "whited",
+  //   "past participle": "whited"
+  // },
   {
     "infinitive": "trek",
     "3rd singular present": "treks",
@@ -14378,13 +14378,13 @@ module.exports=[
     "past": "sustained",
     "past participle": "sustained"
   },
-  {
-    "infinitive": "hispanicize",
-    "3rd singular present": "hispanicizes",
-    "present participle": "hispanicizing",
-    "past": "hispanicized",
-    "past participle": "hispanicized"
-  },
+  // {
+  //   "infinitive": "hispanicize",
+  //   "3rd singular present": "hispanicizes",
+  //   "present participle": "hispanicizing",
+  //   "past": "hispanicized",
+  //   "past participle": "hispanicized"
+  // },
   {
     "infinitive": "disfeature",
     "3rd singular present": "disfeatures",
@@ -18563,13 +18563,13 @@ module.exports=[
     "past": "overbuilt",
     "past participle": "overbuilt"
   },
-  {
-    "infinitive": "brown",
-    "3rd singular present": "browns",
-    "present participle": "browning",
-    "past": "browned",
-    "past participle": "browned"
-  },
+  // {
+  //   "infinitive": "brown",
+  //   "3rd singular present": "browns",
+  //   "present participle": "browning",
+  //   "past": "browned",
+  //   "past participle": "browned"
+  // },
   {
     "infinitive": "predicate",
     "3rd singular present": "predicates",

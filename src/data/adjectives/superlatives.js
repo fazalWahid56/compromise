@@ -46,7 +46,7 @@ let arr = [
   'beautiful',
   'big',
   'bitter',
-  'black',
+  // 'black',
   'blue',
   'bored',
   'boring',

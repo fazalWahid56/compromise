@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>compromise Demo</title>
     <!--<script type="text/javascript" src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>-->
-    <script type="text/javascript" src="compromise.js"></script>
+    <script type="text/javascript" src="../builds/compromise.js"></script>
     <style>
       input {
         font-size: 30px;
@@ -34,7 +34,7 @@
   <script type="text/javascript" language="javascript">
       var nlp = window.nlp;
       function toPast() {
-        debugger;
+        // debugger;
         var present = document.getElementById('verb').value || '';
         var verbs=nlp(present).verbs()
         console.log(verbs.out('text'))

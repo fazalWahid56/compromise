@@ -122,8 +122,8 @@ module.exports = [
   'zambian',
   'zimbabwean',
   'english',
-  'african',
+  // 'african',
   'european',
-  'asian',
+  // 'asian',
   'californian',
 ];

@@ -38,6 +38,6 @@ module.exports = [
   'tight',
   'tough',
   'weak',
-  'white',
+  // 'white',
   'wide',
 ];
