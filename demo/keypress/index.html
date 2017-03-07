@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html>
 <head>
 	
@@ -100,7 +99,7 @@
 <script   src="js/jquery.js"></script>
 <script   src="js/JsonView.js"></script>
 <script   src="js/extract.js"></script>
-<script   src="js/compromise.js"></script>
+<script   src="../builds/compromise.js"></script>
 <link href="css/JsonView.css" media="all" rel="Stylesheet" type="text/css" />
 <script>
 	function GetContext(){
@@ -133,15 +132,15 @@
         <div style="width: 49%; float:left">
             <div>Text:</div>
             <div>
-                <textarea style="width: 100% ; height: 150px; margin: 2px" id="nlpText" ></textarea>
+                <textarea style="width: 100% ; height: 298px; margin: 2px" id="nlpText" ></textarea>
             </div>
             <div style="float:right">   
                 <input type="button" value="Extract" onclick="ExtractData()" />
             </div>
         </div>
-        <div style="width: 49%; float: right; height: 300px; overflow: scroll">
+        <div style="width: 49%; float: right">
             <div>JSON:</div>            
-            <pre style="border: 1px solid grey;height: 300px;margin-top: 0px;" id="json-renderer"></pre>
+            <pre style="border: 1px solid grey;height: 300px;margin-top: 0px;  overflow: scroll" id="json-renderer"></pre>
         </div>
     </div>
 
@@ -462,58 +461,4 @@ function showButtons(style) {
 </body>
 
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>compromise Demo</title>
-    <!--<script type="text/javascript" src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>-->
-    <script type="text/javascript" src="../builds/compromise.js"></script>
-    <style>
-      input {
-        font-size: 30px;
-        height: 40px;
-        color: 'grey';
-      }
-      #past-verb-result {
-        color: steelblue;
-        font-size: 50px;
-      }
-      #nothing{
-        color:darkred
-      }
-      h3 {
-        color: grey;
-      }
-    </style>
-  </head>
-  <body style="position:relative; width:100%; height:100%; padding:20%;">
-    <div id="past-verb-test">
-      <h3>verb.to_past()</h3>
-      <input type="text" id="verb" onKeyPress="toPast()" onKeyUp="toPast()" value="i conjugate the verbs"/>
-      <div id="nothing"></div>
-      <div id="past-verb-result"></div>
-    </div>
-  </body>
-  <script type="text/javascript" language="javascript">
-      var nlp = window.nlp;
-      function toPast() {
-        // debugger;
-        var present = document.getElementById('verb').value || '';
-        var verbs=nlp(present).verbs()
-        console.log(verbs.out('text'))
-        if(!verbs.found){
-          document.getElementById('nothing').innerText = '(no verbs)';
-          document.getElementById('past-verb-result').innerText = '';
-          return
-        }
-        var obj = verbs.data()[0]
-        var past=obj.conjugations.PastTense    ||''
-        document.getElementById('nothing').innerText = '';
-        document.getElementById('past-verb-result').innerText = past;
-      }
-      toPast();//fire!
-  </script>
-</html>
->>>>>>> 4b626df6b4355540f41a7402aa24e847b06da0b6
+

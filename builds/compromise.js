@@ -531,7 +531,7 @@ module.exports = lexicon;
 },{"../result/subset/adjectives/methods/index":68,"../result/subset/nouns/methods/pluralize":108,"../result/subset/verbs/methods/conjugate/faster":149,"../result/subset/verbs/methods/toAdjective":160,"./fns":10,"./index":11}],13:[function(_dereq_,module,exports){
 'use strict';
 
-module.exports = ['Panadol', 'Lepitor', 'Augmantine', 'Septron', 'Clonidine', 'guaifenesin', 'Adderall', 'Keppra', 'Acetaminophen', 'Adderall', 'Alprazolam', 'Amitriptyline', 'Amlodipine', 'Amoxicillin', 'Ativan', 'Atorvastatin', 'Azithromycin', 'Ciprofloxacin', 'Citalopram', 'Clindamycin', 'Clonazepam', 'Codeine', 'Cyclobenzaprine', 'Cymbalta', 'Doxycycline', 'Gabapentin', 'Hydrochlorothiazide', 'Ibuprofen', 'Lexapro', 'Lisinopril', 'Loratadine', 'Lorazepam', 'Losartan', 'Lyrica', 'Meloxicam', 'Metformin', 'Metoprolol', 'Naproxen', 'Omeprazole', 'Oxycodone', 'Pantoprazole', 'Prednisone', 'Tramadol', 'Trazodone', 'Viagra', 'Wellbutrin', 'Xanax', 'Zoloft','clonidine'];
+module.exports = ['Panadol', 'Lepitor', 'Augmantine', 'Septron', 'Clonidine', 'guaifenesin', 'Adderall', 'Keppra', 'Acetaminophen', 'Adderall', 'Alprazolam', 'Amitriptyline', 'Amlodipine', 'Amoxicillin', 'Ativan', 'Atorvastatin', 'Azithromycin', 'Ciprofloxacin', 'Citalopram', 'Clindamycin', 'Clonazepam', 'Codeine', 'Cyclobenzaprine', 'Cymbalta', 'Doxycycline', 'Gabapentin', 'Hydrochlorothiazide', 'Ibuprofen', 'Lexapro', 'Lisinopril', 'Loratadine', 'Lorazepam', 'Losartan', 'Lyrica', 'Meloxicam', 'Metformin', 'Metoprolol', 'Naproxen', 'Omeprazole', 'Oxycodone', 'Pantoprazole', 'Prednisone', 'Tramadol', 'Trazodone', 'Viagra', 'Wellbutrin', 'Xanax', 'Zoloft'];
 
 },{}],14:[function(_dereq_,module,exports){
 'use strict';
