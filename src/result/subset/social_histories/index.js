@@ -11,7 +11,8 @@ class Social_histories extends Text {
     });
   }
   static find(r, n) {
-    r = r.concat(r.splitAfter('#Comma'), ' ');
+    // r = r.concat(r.splitAfter('#Comma'), ' ');
+    r = r.splitAfter('#Comma');
     r = r.match('#Social_histories+');
     if (typeof n === 'number') {
       r = r.get(n);

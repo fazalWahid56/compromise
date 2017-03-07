@@ -4,5 +4,5 @@ module.exports = [
     'African American',
     'American Indian', 
     'asian',
-    'latino',
+    'latino'
 ]

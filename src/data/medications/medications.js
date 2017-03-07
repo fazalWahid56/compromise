@@ -3,12 +3,10 @@ module.exports = [
   'Lepitor',
   'Augmantine',
   'Septron',
-<<<<<<< HEAD
   'Clonidine',
   'guaifenesin',
   'Adderall',
   'Keppra',
-=======
   'Acetaminophen',
   'Adderall',
   'Alprazolam',
@@ -49,5 +47,4 @@ module.exports = [
   'Wellbutrin',
   'Xanax',
   'Zoloft',
->>>>>>> 4b626df6b4355540f41a7402aa24e847b06da0b6
 ]

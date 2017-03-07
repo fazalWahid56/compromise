@@ -11,7 +11,7 @@ class Races extends Text {
     });
   }
   static find(r, n) {
-    r = r.concat(r.splitAfter('#Comma'), ' ');
+    r = r.splitAfter('#Comma');
     r = r.match('#Races+');
     if (typeof n === 'number') {
       r = r.get(n);

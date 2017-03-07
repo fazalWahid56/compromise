@@ -4,5 +4,5 @@ module.exports = [
   'save encounter',
   'cancel',
   'cancel it',
-  'cance encounter',
+  'cance encounter'
 ]

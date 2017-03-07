@@ -62,6 +62,26 @@ const methods = {
       return arr;
     }, []);
   },
+  Objson: (r) => {
+    r = r.terms.clauses();
+    return r.list.reduce((arr, ts) => {
+      // let sent = ts.terms.reduce((sen, t) => 
+      //   sen = t.terms.clauses.if('#Allergies').out('array')
+      // );      
+      let terms = ts.terms.map((t) => {
+        // let sent = t.match('#Allergies').out('array')
+
+        return {
+          text: t.text,
+          normal: t.normal,
+          tags: t.tag
+          // sents: sent
+        };
+      });
+      arr.push(terms);
+      return arr;
+    }, []);
+  },
   html: (r) => {
     let html = r.list.reduce((str, ts) => {
       let sentence = ts.terms.reduce((sen, t) => {
