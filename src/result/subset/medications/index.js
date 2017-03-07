@@ -11,7 +11,7 @@ class Medications extends Text {
     });
   }
   static find(r, n) {
-    // r = r.splitAfter('#Comma');
+    r = r.concat(r.splitAfter('#Comma'), ' ');
     r = r.match('#Medications+');
     if (typeof n === 'number') {
       r = r.get(n);

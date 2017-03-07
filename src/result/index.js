@@ -95,8 +95,14 @@ const subset = {
   ngrams: require('./subset/ngrams'),
   startGrams: require('./subset/ngrams/startGrams'),
   endGrams: require('./subset/ngrams/endGrams'),
+  
   actions: require('./subset/actions'),
   medications: require('./subset/medications'),
+  allergies: require('./subset/allergies'),
+  races: require('./subset/races'),
+  ethnicities : require('./subset/ethnicities'),
+  social_histories: require('./subset/social_histories'),
+  vital_signs: require('./subset/vital_signs'),
 };
 //term subsets
 Object.keys(subset).forEach((k) => {

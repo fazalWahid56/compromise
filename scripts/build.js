@@ -15,14 +15,14 @@ var lib = {
 
 //final build locations
 var path = {
-  es5 : './builds/compromise.js',
-  es5min : './builds/compromise.min.js',
-  es6 : './builds/compromise.es6.js',
-  es6min : './builds/compromise.es6.min.js',
+  es5 : './demo/builds/compromise.js',
+  es5min : './demo/builds/compromise.min.js',
+  es6 : './demo/builds/compromise.es6.js',
+  es6min : './demo/builds/compromise.es6.min.js',
 };
 
 //cleanup. remove old builds
-exec('rm -rf ./builds && mkdir builds');
+exec('rm -rf ./demo/builds && mkdir ./demo/builds');
 
 //add a header, before our sourcecode
 exec('echo ' + banner + ' > ' + path.es5);
