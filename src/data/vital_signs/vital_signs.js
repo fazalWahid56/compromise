@@ -1,10 +1,10 @@
-module.exports = [
-    'Temperature',
+module.exports = [    
+    'Temperature'
     'Heart rate', 
     'Respiratory rate',
-    'Repirations',
-    'Pulse',
+    'Respirations',
     'Blood pressure',
     'Height',
     'Weight', 
+    'Pulse',
 ]

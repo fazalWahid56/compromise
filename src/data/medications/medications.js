@@ -47,4 +47,5 @@ module.exports = [
   'Wellbutrin',
   'Xanax',
   'Zoloft',
+  'clonidine',
 ]

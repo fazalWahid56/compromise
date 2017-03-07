@@ -1,4 +1,4 @@
 allergies()
 races()
-enthnicities()
+ethnicities()
 vital_signs()
