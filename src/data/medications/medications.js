@@ -2,5 +2,9 @@ module.exports = [
   'Panadol',
   'lepitor',
   'Augmantine',
-  'Septron'
+  'Septron',
+  'Clonidine',
+  'guaifenesin',
+  'Adderall',
+  'Keppra',
 ]
