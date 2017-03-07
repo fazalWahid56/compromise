@@ -11,13 +11,16 @@ class Vital_signs extends Text {
     });
   }
   static find(r, n) {
-    var topics = r.topics().all('#Value');
+    // var topics = r.topics().all('#Value');
+    r = r.splitAfter('#Comma');
+    r = r.match('#Vital_signs+ .?');
     if (typeof n === 'number') {
-      topics = topics.get(n);
+      // topics = topics.get(n);
+      r = r.get(n);
 
     }
     
-    return topics
+    return r
   }
 }
 

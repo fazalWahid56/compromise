@@ -8,7 +8,6 @@ const methods = {
       return str;
     }, '');
   },
-
   normal: function (ts) {
     let terms = ts.terms.filter((t) => {
       return t.text;

@@ -44,5 +44,5 @@ module.exports = {
   'races':require('./races/races'),
   'ethnicities':require('./ethnicities/ethnicities'),
   'social_histories':require('./social_histories/social_histories'),
-  // 'vital_signs':require('./vital_signs/vital_signs'),
+  'vital_signs':require('./vital_signs/vital_signs'),
 };
