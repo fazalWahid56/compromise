@@ -138,7 +138,7 @@ addArr(data.medications, 'Medications');
 addArr(data.allergies, 'Allergies');
 addArr(data.races, 'Races');
 addArr(data.ethnicities, 'Ethnicities');
-// addArr(data.vital_signs, 'Vital_signs');
+addArr(data.vital_signs, 'Vital_signs');
 addArr(data.social_histories, 'Social_histories');
 
 //these ad-hoc manual ones have priority
