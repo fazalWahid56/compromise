@@ -12,7 +12,7 @@ class Ethnicities extends Text {
   }
   static find(r, n) {
     r = r.splitAfter('#Comma');
-    r = r.match('#Ethnicities+');
+    r = r.ngrams().unigrams(0).match('#Ethnicities+');
     if (typeof n === 'number') {
       r = r.get(n);
     }

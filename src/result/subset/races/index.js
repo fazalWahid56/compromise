@@ -12,7 +12,7 @@ class Races extends Text {
   }
   static find(r, n) {
     r = r.splitAfter('#Comma');
-    r = r.match('#Races+');
+    r = r.ngrams().unigrams(0).match('#Races+');
     if (typeof n === 'number') {
       r = r.get(n);
     }

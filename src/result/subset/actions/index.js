@@ -12,7 +12,7 @@ class Actions extends Text {
   }
   static find(r, n) {
     r = r.splitAfter('#Comma');
-    r = r.match('#Actions+');
+    r = r.ngrams().unigrams(0).match('#Actions+');
     if (typeof n === 'number') {
       r = r.get(n);
     }

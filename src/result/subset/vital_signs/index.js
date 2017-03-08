@@ -13,7 +13,7 @@ class Vital_signs extends Text {
   static find(r, n) {
     // var topics = r.topics().all('#Value');
     r = r.splitAfter('#Comma');
-    r = r.match('#Vital_signs+ .?');
+    r = r.ngrams().unigrams(0).match('#Vital_signs+ .?');
     if (typeof n === 'number') {
       // topics = topics.get(n);
       r = r.get(n);

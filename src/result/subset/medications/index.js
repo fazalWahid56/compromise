@@ -12,7 +12,7 @@ class Medications extends Text {
   }
   static find(r, n) {
     r = r.splitAfter('#Comma');
-    r = r.match('#Medications+');
+    r = r.ngrams().unigrams(0).match('#Medications+');
     if (typeof n === 'number') {
       r = r.get(n);
     }

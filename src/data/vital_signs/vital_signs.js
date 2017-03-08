@@ -1,5 +1,5 @@
 module.exports = [    
-    'Temperature'
+    'Temperature',
     'Heart rate', 
     'Respiratory rate',
     'Respirations',

@@ -12,7 +12,7 @@ class Allergies extends Text {
   }
   static find(r, n) {
     r = r.splitAfter('#Comma');
-    r = r.match('#Allergies+');
+    r = r.ngrams().unigrams(0).match('#Allergies+');
     if (typeof n === 'number') {
       r = r.get(n);
     }
