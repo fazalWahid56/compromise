@@ -7,13 +7,13 @@ function ExtractData(){
     {
         var nlpJson={}
         var nlpObj = nlp(text.toLowerCase()).clauses();
-        nlpJson["Medications"]=getNlpData("Medications",nlpObj);
-        nlpJson["Actions"]=getNlpData("Actions",nlpObj);
-        nlpJson["Allergies"]=getNlpData("Allergies",nlpObj);
-        nlpJson["Race"]=getNlpData("Races",nlpObj);
-        nlpJson["Social History"]=getNlpData("Social_histories",nlpObj);
-        nlpJson["Enthnicity"]=getNlpData("Ethnicities",nlpObj);
-        nlpJson["Vitals"]=getNlpData("Vital_signs",nlpObj);        
+        nlpJson["Medications"]=getNlpData("Medication",nlpObj);
+        nlpJson["Actions"]=getNlpData("Action",nlpObj);
+        nlpJson["Allergies"]=getNlpData("Allergy",nlpObj);
+        nlpJson["Race"]=getNlpData("Race",nlpObj);
+        nlpJson["Social History"]=getNlpData("Social",nlpObj);
+        nlpJson["Enthnicity"]=getNlpData("Ethnicity",nlpObj);
+        nlpJson["Vitals"]=getNlpData("Vitals",nlpObj);        
         $('#json-renderer').jsonViewer(nlpJson);
     }
 
@@ -25,26 +25,26 @@ function getNlpData(tag,nlpObj){
             var Obj={}
             Obj["Clause"] = value;
             switch (tag) { 
-	            case 'Medications': 
-		            Obj["Terms"]=nlp(value).medications().out('array');
+	            case 'Medication': 
+		            Obj["Terms"]=nlp(value).medication().out('array');
 		            break;
-                case 'Actions': 
-		            Obj["Terms"]=nlp(value).actions().out('array');
+                case 'Action': 
+		            Obj["Terms"]=nlp(value).action().out('array');
 		            break;
-                case 'Allergies': 
-		            Obj["Terms"]=nlp(value).allergies().out('array');
+                case 'Allergy': 
+		            Obj["Terms"]=nlp(value).allergy().out('array');
 		            break;
-                case 'Races': 
-		            Obj["Terms"]=nlp(value).races().out('array');
+                case 'Race': 
+		            Obj["Terms"]=nlp(value).race().out('array');
 		            break;
-                case 'Social_histories': 
-		            Obj["Terms"]=nlp(value).social_histories().out('array');
+                case 'Social': 
+		            Obj["Terms"]=nlp(value).social().out('array');
 		            break;
-                case 'Ethnicities': 
-		            Obj["Terms"]=nlp(value).ethnicities().out('array');
+                case 'Ethnicity': 
+		            Obj["Terms"]=nlp(value).ethnicity().out('array');
 		            break;
                 case 'Vitals': 
-		            Obj["Terms"]=nlp(value).vital_signs().out('array');
+		            Obj["Terms"]=nlp(value).vitals().out('array');
 		            break;               
                 default:
                     break;

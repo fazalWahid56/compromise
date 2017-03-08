@@ -37,12 +37,12 @@ module.exports = {
 
   'misc': require('./misc/misc'),
 
-  'actions': require('./actions/actions'),
-  'medications':require('./medications/medications'),
+  'action': require('./action/action'),
+  'medication':require('./medication/medication'),
 
-  'allergies':require('./allergies/allergies'),
-  'races':require('./races/races'),
-  'ethnicities':require('./ethnicities/ethnicities'),
-  'social_histories':require('./social_histories/social_histories'),
-  'vital_signs':require('./vital_signs/vital_signs'),
+  'allergy':require('./allergy/allergy'),
+  'race':require('./race/race'),
+  'ethnicity':require('./ethnicity/ethnicity'),
+  'social':require('./social/social'),
+  'vitals':require('./vitals/vitals'),
 };

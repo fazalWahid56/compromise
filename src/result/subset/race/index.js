@@ -1,7 +1,7 @@
 'use strict';
 const Text = require('../../index');
 
-class Social_histories extends Text {
+class Race extends Text {
   data() {
     return this.list.map((ts) => {
       return {
@@ -11,9 +11,8 @@ class Social_histories extends Text {
     });
   }
   static find(r, n) {
-    // r = r.concat(r.splitAfter('#Comma'), ' ');
     r = r.splitAfter('#Comma');
-    r = r.ngrams().unigrams(0).match('#Social_histories+');
+    r = r.ngrams().unigrams(0).match('#Race+');
     if (typeof n === 'number') {
       r = r.get(n);
     }
@@ -21,4 +20,4 @@ class Social_histories extends Text {
   }
 }
 
-module.exports = Social_histories;
+module.exports = Race;

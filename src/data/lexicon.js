@@ -133,13 +133,13 @@ addArr(data.verbConverts, 'Adjective');
 addArr(data.superlatives, 'Adjective');
 addArr(data.currencies, 'Currency');
 
-addArr(data.actions, 'Actions');
-addArr(data.medications, 'Medications');
-addArr(data.allergies, 'Allergies');
-addArr(data.races, 'Races');
-addArr(data.ethnicities, 'Ethnicities');
-addArr(data.vital_signs, 'Vital_signs');
-addArr(data.social_histories, 'Social_histories');
+addArr(data.action, 'Action');
+addArr(data.medication, 'Medication');
+addArr(data.allergy, 'Allergy');
+addArr(data.race, 'Race');
+addArr(data.ethnicity, 'Ethnicity');
+addArr(data.vitals, 'Vitals');
+addArr(data.social, 'Social');
 
 //these ad-hoc manual ones have priority
 addObj(data.misc);

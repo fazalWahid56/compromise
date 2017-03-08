@@ -1,7 +1,7 @@
 'use strict';
 const Text = require('../../index');
 
-class Ethnicities extends Text {
+class Medication extends Text {
   data() {
     return this.list.map((ts) => {
       return {
@@ -12,7 +12,7 @@ class Ethnicities extends Text {
   }
   static find(r, n) {
     r = r.splitAfter('#Comma');
-    r = r.ngrams().unigrams(0).match('#Ethnicities+');
+    r = r.ngrams().unigrams(0).match('#Medication+'); 
     if (typeof n === 'number') {
       r = r.get(n);
     }
@@ -20,4 +20,4 @@ class Ethnicities extends Text {
   }
 }
 
-module.exports = Ethnicities;
+module.exports = Medication;

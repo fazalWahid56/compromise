@@ -1,7 +1,7 @@
 'use strict';
 const Text = require('../../index');
 
-class Vital_signs extends Text {
+class Vitals extends Text {
   data() {
     return this.list.map((ts) => {
       return {
@@ -13,7 +13,7 @@ class Vital_signs extends Text {
   static find(r, n) {
     // var topics = r.topics().all('#Value');
     r = r.splitAfter('#Comma');
-    r = r.ngrams().unigrams(0).match('#Vital_signs+ .?');
+    r = r.match('#Vitals+ .?');
     if (typeof n === 'number') {
       // topics = topics.get(n);
       r = r.get(n);
@@ -24,4 +24,4 @@ class Vital_signs extends Text {
   }
 }
 
-module.exports = Vital_signs;
+module.exports = Vitals;

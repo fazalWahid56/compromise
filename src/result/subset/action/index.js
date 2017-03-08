@@ -1,7 +1,7 @@
 'use strict';
 const Text = require('../../index');
 
-class Actions extends Text {
+class Action extends Text {
   data() {
     return this.list.map((ts) => {
       return {
@@ -12,7 +12,7 @@ class Actions extends Text {
   }
   static find(r, n) {
     r = r.splitAfter('#Comma');
-    r = r.ngrams().unigrams(0).match('#Actions+');
+    r = r.ngrams().unigrams(0).match('#Action+');
     if (typeof n === 'number') {
       r = r.get(n);
     }
@@ -20,4 +20,4 @@ class Actions extends Text {
   }
 }
 
-module.exports = Actions;
+module.exports = Action;
