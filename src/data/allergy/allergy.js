@@ -2,7 +2,7 @@ module.exports = [
    'cipro' ,
    'cefepime',
    'topamax', 
-   'cephalosporin'
-//    'none', 
+   'cephalosporin',
+    'none' 
 //    'no'
 ]

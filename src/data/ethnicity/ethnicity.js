@@ -1,5 +1,5 @@
 module.exports = [
-    'Caucasian',
+    'caucasian',
     'hispanic',
     'african american',
     'american indian', 

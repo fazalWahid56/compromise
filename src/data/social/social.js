@@ -2,7 +2,7 @@ module.exports = [
     'smoker',
     'habitual smoker',
     'occasional smoker',
-    'non smoker' ,
+    'nonsmoker' ,
     'never smoked',
     'right handed', 
 //    'right-handed',
