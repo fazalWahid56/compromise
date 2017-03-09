@@ -1,8 +1,8 @@
 module.exports = [
     'Caucasian',
     'hispanic',
-    'African American',
-    'American Indian', 
+    'african american',
+    'american indian', 
     'asian',
     'latino'
 ]
