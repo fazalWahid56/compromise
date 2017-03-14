@@ -12,7 +12,9 @@ class Type extends Text {
   }
   static find(r, n) {
     r = r.splitAfter('#Comma');
-    r = r.ngrams().unigrams(0).match('#Type+');
+    // r = r.ngrams().bigrams(0).match('#Type+');
+    r = r.match('#Type+ .?');
+
     if (typeof n === 'number') {
       r = r.get(n);
     }
