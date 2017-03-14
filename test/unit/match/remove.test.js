@@ -29,7 +29,7 @@ test('remove-match :', function(t) {
   m = nlp('the nice brown cat played. The nice dog waited.').delete('nice brown');
   t.equal(m.out('text'), 'the cat played. The nice dog waited.', 'nice-brown');
 
-  m = nlp('the nice brown cat played. The cute dogs ate.').delete('#Adjective');
+  m = nlp('the cute brown cat played. The cute dogs ate.').delete('#Adjective');
   t.equal(m.out('text'), 'the cat played. The dogs ate.', 'adj-each');
 
   m = nlp('the nice brown cat played. The cute dogs ate.').delete('#Adjective+');

@@ -9,7 +9,7 @@ test('pos from-lexicon', function (t) {
     ['Jamaica', 'Country'],
     ['legendary', 'Adjective'],
     ['above', 'Adjective'],
-    ['moderate', 'Adjective'],
+    ['moderate', 'Severity'],
     ['extreme', 'Adjective'],
     ['august', 'Month'],
     ['saturday', 'WeekDay'],
