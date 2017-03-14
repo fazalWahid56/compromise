@@ -98,7 +98,12 @@ const subset = {
   
   action: require('./subset/action'),
   medication: require('./subset/medication'),
+  
   allergy: require('./subset/allergy'),
+  reactions: require('./subset/allergy/reactions'),
+  severity: require('./subset/allergy/severity'),
+  type: require('./subset/allergy/type'),
+
   race: require('./subset/race'),
   ethnicity : require('./subset/ethnicity'),
   social: require('./subset/social'),

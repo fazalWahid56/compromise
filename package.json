@@ -3,7 +3,7 @@
   "name": "compromise",
   "description": "natural language processing in the browser",
   "version": "7.0.28",
-  "main": "./builds/compromise.js",
+  "main": "./demo/builds/compromise.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/nlp-compromise/compromise.git"

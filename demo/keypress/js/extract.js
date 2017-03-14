@@ -32,7 +32,15 @@ function getNlpData(tag,nlpObj){
 		            Obj["Terms"]=nlp(value).action().out('array');
 		            break;
                 case 'Allergy': 
-		            Obj["Terms"]=nlp(value).allergy().out('array');
+		            
+                    var algObj={}
+                    algObj["allergy"]=nlp(value).allergy().out('array');
+                    algObj["reactions"]=nlp(value).reactions().out('array');
+                    algObj["severity"]= nlp(value).severity().out('array');
+                    algObj["type"]= nlp(value).type().out('array');
+                    algObj["dates"]= nlp(value).dates().out('array');
+                    debugger;                    
+                    Obj["Terms"]=algObj;
 		            break;
                 case 'Race': 
 		            Obj["Terms"]=nlp(value).race().out('array');

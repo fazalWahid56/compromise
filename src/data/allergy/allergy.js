@@ -3,6 +3,5 @@ module.exports = [
    'cefepime',
    'topamax', 
    'cephalosporin',
-    'none' 
-//    'no'
+    'none',
 ]

@@ -135,7 +135,12 @@ addArr(data.currencies, 'Currency');
 
 addArr(data.action, 'Action');
 addArr(data.medication, 'Medication');
+
 addArr(data.allergy, 'Allergy');
+addArr(data.reactions, 'Reactions');
+addArr(data.severity, 'Severity');
+addArr(data.type, 'Type');
+
 addArr(data.race, 'Race');
 addArr(data.ethnicity, 'Ethnicity');
 addArr(data.vitals, 'Vitals');

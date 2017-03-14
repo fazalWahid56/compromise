@@ -41,6 +41,10 @@ module.exports = {
   'medication':require('./medication/medication'),
 
   'allergy':require('./allergy/allergy'),
+  'reactions':require('./allergy/reactions/reactions'),
+  'severity':require('./allergy/severity/severity'),
+  'type':require('./allergy/type/type'),
+
   'race':require('./race/race'),
   'ethnicity':require('./ethnicity/ethnicity'),
   'social':require('./social/social'),
